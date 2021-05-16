@@ -28,9 +28,9 @@ def get_line_up(player_count):
         '1': ['pitch', 'catch','1st', '2nd', 'shortstop', '3rd', 'left', 'center', 'right', 'bench'],
         '2': ['bench', 'left', '3rd', 'right', 'center', 'shortstop', '1st', '2nd', 'pitch', 'catch'],
         '3': ['2nd','pitch','bench','shortstop','1st','right','center','catch', 'left', '3rd'],
-        '4': ['2nd','bench','left','3rd','right','pitch','catch','shortstop','1st', 'center'],
+        '4': ['3rd', '2nd','left','bench','right','pitch','catch','shortstop','1st', 'center'],
         '5': ['shortstop','center','pitch','catch','1st','left', 'bench','right','3rd','2nd'],
-        '6': ['left','3rd','pitch','shortstop','center','2nd','1st','right','catch', 'bench'] 
+        '6': ['left','3rd','shortstop','center', 'pitch','2nd','catch', '1st', 'right','bench'] 
         }
 
     elif player_count == 9:
@@ -52,7 +52,7 @@ def get_line_up(player_count):
     return lineup
 
 ###################################
-no = ["Edward", "Julian"]
+no = ["Jack", "Sander"]
 
 sub = []
 
