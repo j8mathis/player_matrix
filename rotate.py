@@ -8,8 +8,8 @@ def get_line_up(player_count):
         '1': ['pitch','catch','1st','2nd','shortstop','3rd','left','center','right','bench','bench','bench'],
         '2': ['bench','bench','bench','right','center','shortstop','2nd','1st','pitch','catch','left','3rd'],
         '3': ['catch','pitch','2nd','bench','bench','right','center','shortstop','bench','3rd','1st','left'],
-        '4': ['center','bench','3rd','2nd','catch','bench','pitch','bench','1st','left','right','shortstop'],
-        '5': ['2nd','shortstop','center','pitch','1st','catch','bench','right','3rd','bench','left','bench'],
+        '4': ['center','left','3rd','shortstop','catch','bench','bench','bench','1st','2nd','right','pitch'],
+        '5': ['2nd','shortstop','center','bench','1st','catch','pitch','right','3rd','bench','left','bench'],
         '6': ['left','bench','1st','right','center','3rd','2nd','shortstop','bench','pitch','bench','catch']
         }
 
@@ -52,11 +52,11 @@ def get_line_up(player_count):
     return lineup
 
 ###################################
-no = ['Max', 'Grayson']
+no = []
 
 sub = []
 
-output_csv = False
+output_csv = True
 ###################################
 
 players = ['Max', 'Grayson', 'Charlie', 'Silas', 'Tyce', 'Walter', 'Jamie', 'Edward', 'Stephen', 'Julian', 'Jack', 'Sander']
